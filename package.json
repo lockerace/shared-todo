@@ -1,0 +1,21 @@
+{
+  "name": "shared-todo",
+  "version": "0.0.1",
+  "description": "Simple Discord Bot to serve shared todo list per channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "lockerace@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "array-flat-polyfill": "^1.0.1",
+    "check-node-version": "^4.0.3",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0"
+  }
+}

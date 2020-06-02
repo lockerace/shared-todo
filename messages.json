@@ -1,0 +1,25 @@
+{
+    "errors": {
+        "botAuthTokenRequired": "Bot Auth Token is required!",
+        "messageFormatsFileMissing": "Message formats file is missing!"
+    },
+    "help": {
+        "title": "Commands",
+        "add": "Add a new todo",
+        "remove": "Complete a todo",
+        "help": "Show help",
+        "current": "Show current todos"
+    },
+    "console": {
+        "ready": "Ready!",
+        "bye": "Bye!"
+    },
+    "responds": {
+        "addSuccess": "Added '{0}' to todo list",
+        "removeSuccess": "'{0}' is completed!",
+        "removeNotFound": "Todo not found",
+        "removeEmptyList": "Empty todo list",
+        "descriptionLine": "{0}. {1}",
+        "showEmptyList": "Yay! you're free"
+    }
+}
