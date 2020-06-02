@@ -6,7 +6,9 @@
     "help": {
         "title": "Commands",
         "add": "Add a new todo",
+        "description": "description",
         "remove": "Complete a todo",
+        "number": "number",
         "help": "Show help",
         "current": "Show current todos"
     },
@@ -20,6 +22,6 @@
         "removeNotFound": "Todo not found",
         "removeEmptyList": "Empty todo list",
         "descriptionLine": "{0}. {1}",
-        "showEmptyList": "Yay! you're free"
+        "showEmptyList": "Yay! Freedom! :grin:"
     }
 }

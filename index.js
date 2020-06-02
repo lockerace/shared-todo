@@ -38,8 +38,8 @@ loadMessageFormats()
 
             if (result.isSatisfied) {
                 require('array-flat-polyfill');
-                return readFile().then(start);
             }
+            return readFile().then(start);
         });
     })
     .catch(e => {
@@ -74,9 +74,9 @@ function start(todos) {
         const helpEmbed = new Discord.MessageEmbed()
             .setColor(color)
             .setTitle(messageFormats.help.title)
-            .addField(prefix + ' add <description>', messageFormats.help.add, false)
-            .addField(prefix + ' remove <number>', messageFormats.help.remove, false)
-            .addField(prefix + ' help', messageFormats.help.help, false)
+            .addField(prefix + ' [a]dd <' + messageFormats.help.description +'>', messageFormats.help.add, false)
+            .addField(prefix + ' [r]emove <' + messageFormats.help.number + '>', messageFormats.help.remove, false)
+            .addField(prefix + ' [h]elp', messageFormats.help.help, false)
             .addField(prefix, messageFormats.help.current, false);
         client = new Discord.Client();
 
