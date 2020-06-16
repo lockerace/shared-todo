@@ -96,7 +96,7 @@ function start(todos) {
                 let help = false;
                 if (command === 'add' || command === 'a') {
                     if (!todos[message.guild.id]) {
-                        todos[message.guild.id] = [];
+                        todos[message.guild.id] = {};
                         todos[message.guild.id][message.channel.id] = [];
                     } else if (!todos[message.guild.id][message.channel.id]) {
                         todos[message.guild.id][message.channel.id] = [];
